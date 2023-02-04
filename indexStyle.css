@@ -35,12 +35,28 @@ h4 {
   background-image: url(https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54456.jpg?w=1060&t=st=1675489436~exp=1675490036~hmac=8322acd4096b71b0d750a6bd051df0a54780fcc75b3743d8f9f55b658030329a);
   background-size: cover;
 }
-.username {
-  margin-bottom: 2px;
+.inner-container{
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+}
+
+.credentials_text{
+  text-align: left;
+  margin-left: 7.5%;
+}
+
+/* .inner-inner-container{
+  align-items: right;
+
+} */
+
+/* .username {
+  margin-bottom: 1px;
 }
 .password {
-  margin-bottom: 5px;
-}
+  margin-bottom: 1px;
+} */
 
 .submit {
   display: flex;

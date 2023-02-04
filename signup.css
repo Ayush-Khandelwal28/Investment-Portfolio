@@ -17,20 +17,33 @@ body {
     align-items:center;
     background-color: white;
     border-radius: 0.5em;
-    height:35em;
+    height:40em;
     width:33em;
     background-image: url(https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54456.jpg?w=1060&t=st=1675489436~exp=1675490036~hmac=8322acd4096b71b0d750a6bd051df0a54780fcc75b3743d8f9f55b658030329a);
     background-size:cover;
 }
-.name{
+/*   .name{
     margin-bottom:2px;
-}
+} */
 .submit{
     display:flex;
     justify-content: center;
 }
 
+.inner-container{
+  margin-top: 1em;
+  text-align:center;
+  align-items: center;
+}
+.credentials_text{
+text-align: left;
+margin-left: 7.5%;
+margin-top: 10%; 
+}
 
+.signup_head{
+margin-bottom: 25px;
+}
 /* .left,
 .right {
   width: 50%;
@@ -50,3 +63,67 @@ body {
   display: flex;
   justify-content: center;
 } */
+#password{
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 0.5em;
+}
+
+#username{
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 0.5em;
+}
+
+#password:hover{
+    border: 0.5px black solid;
+}
+
+#username:hover{
+    border-radius: 7px;
+    border: 0.5px black solid;
+}
+#confirm-password{
+  border-radius: 7px;
+  border:none;
+  margin-bottom: 0.5em;
+}
+#confirm-password:hover{
+  border-radius: 7px;
+    border: 0.5px black solid;
+}
+#email{
+  border-radius: 7px;
+  border:none;
+  margin-bottom: 0.5em;
+}
+#email:hover{
+  border-radius: 7px;
+    border: 0.5px black solid;
+}
+#Name{
+  border-radius: 7px;
+    border: none;
+    margin-bottom: 0.5em;
+}
+#Name:hover{
+  border-radius: 7px;
+    border: 0.5px black solid;
+}
+#dob{
+  border-radius: 7px;
+  border:none;
+  margin-bottom: 0.5em;
+}
+#dob:hover{
+  border-radius: 7px;
+    border: 0.5px black solid;
+}
+
+img{
+/* outline: 1px solid red; */
+width: 350px;
+height: 350px;
+margin-top: 0em;
+}
+

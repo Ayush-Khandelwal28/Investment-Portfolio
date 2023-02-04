@@ -12,7 +12,8 @@ body {
 }
 
 h4 {
-  margin-top: -0.7em;
+  margin-top: -5em;
+  height: 5em;
 }
 
 .form {
@@ -38,6 +39,7 @@ h4 {
 .inner-container{
   align-items: center;
   text-align: center;
+  margin-top: 3em;
   /* display: flex; */
 }
 
@@ -101,3 +103,16 @@ h4 {
 button {
   border: none;
 }
+
+
+img{
+  /* outline: 1px solid red; */
+  width: 350px;
+  height: 350px;
+  margin-top: -2em;
+}
+
+a {
+text-decoration: none;
+}
+

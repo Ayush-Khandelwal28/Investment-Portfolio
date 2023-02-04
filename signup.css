@@ -10,14 +10,14 @@ body {
 }
 
 .container{
-    margin-top:7rem;
+    margin-top:2rem;
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     background-color: white;
     border-radius: 0.5em;
-    height:40em;
+    height:43em;
     width:33em;
     background-image: url(https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54456.jpg?w=1060&t=st=1675489436~exp=1675490036~hmac=8322acd4096b71b0d750a6bd051df0a54780fcc75b3743d8f9f55b658030329a);
     background-size:cover;
@@ -31,7 +31,7 @@ body {
 }
 
 .inner-container{
-  margin-top: 1em;
+  margin-top: -3em;
   text-align:center;
   align-items: center;
 }
@@ -127,3 +127,22 @@ height: 350px;
 margin-top: 0em;
 }
 
+button {
+  border: none;
+}
+
+h4{
+  margin-top: 2em;
+}
+
+a {
+  text-decoration: none;
+  }
+
+  img{
+    /* outline: 1px solid red; */
+    width: 350px;
+    height: 350px;
+    margin-top: -7em;
+    margin-bottom: -5em;
+  }
